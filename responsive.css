@@ -1,0 +1,600 @@
+
+ @media only screen and (max-width: 480px) {
+    .header-text{ 
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .blog .link{
+        font-size: 12px;
+        padding-right: 5px;
+    }
+
+    .vector{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .blog .headerTitle{
+        flex-direction: column;
+    }
+
+    nav .column{
+        flex-direction: column;
+        gap: 10px;
+        height: fit-content;
+
+    }
+
+    nav .button{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    nav .text-regular{
+        line-height: 17px;
+    }
+
+    .logo{
+        width: 150px;
+        height: auto;
+    }
+
+
+    /*images for mobile*/
+
+    .mySkills .image{
+        display: none;
+    }
+
+    .mySkills .skill-logo{
+        width: 65px;
+        height: 65px;
+        padding: 10px;
+    }
+
+    .mySkills .image-mobile{
+        display: block;
+        width: 45px;
+    }
+
+    .about .image{
+        display: none;
+    }
+
+    .about .image-mobile{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .blog .image{
+        display: none;
+    }
+
+    .blog .image-mobile{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials .stars{
+        display: none;
+    }
+
+    .testimonials .image-mobile{
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    form .form-part{
+        width: 100%;
+        height: auto;
+    }
+
+    form .side{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .testimonials .avatar{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .testimonials .avatar .small-text-bold, .testimonials .avatar .text-regular{
+        text-align: center;
+    }
+
+    .form{
+        margin-top:20px;
+    }
+
+    .footer .container-2 ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+ }
+
+
+ @media only screen and (max-width: 768px) {
+    .text-regular{
+        font-size: 15px;
+    }
+
+    .header-text{ 
+        font-size: 40px;
+        line-height: 50.6px;
+    }
+
+    .description-text{ 
+        font-size: 16px;
+    }
+
+    .small-text-bold{
+        font-size: 15px;
+    }
+
+    .header-text-small{
+        font-size: 22px;
+    }
+
+    .extra-small-text{
+        font-size: 14px;
+    }
+
+
+    nav{
+        height: auto;
+        padding: 25px;
+    }
+
+    nav .container{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+    .header{
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+
+    header .img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .headerLeft{
+        width: 85%;
+        height: auto;
+    }
+
+
+    .mySkills{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        gap: 20px;
+    }
+    
+    .mySkills .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /*about*/
+
+    .about{
+        flex-direction: column;
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .about .img{
+        width: 60%;
+        height: auto;
+    }
+    
+    .about .image{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .rightAbout{
+        width: 90%;
+        height: auto;
+        gap: 32px;
+    }
+
+    /*testimonials*/
+
+    .testimonials{
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .testimonials .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials .stars{
+        width: 35%;
+    }
+
+    .testimonials .section-box{
+        width: 80%;
+        padding: 10px;
+    }
+
+    /*blog*/
+
+    .blog{
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .blog .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .blog .section-box{
+        width: 80%;
+    }
+
+    .button-pink{
+        display: inline-flex;
+        align-items: center;
+        padding: 10px;
+        padding-left: 35px;
+        border-radius: 10.67px;
+        background-color: var(--dribble); 
+        color: white;
+        position: relative;
+    }
+
+    .icon{
+        content: url("images/Blog/Social\ icon.png");
+        height: 20px;
+        width: 20px;
+        left: 10.33px;
+        top:30%;
+    }
+
+    /*form*/
+
+    .contact-center{
+        width: 80%;
+    }
+
+    .contact{
+        padding: 100px 40px;
+    }
+
+    /*footer*/
+
+    .footer{
+        gap: 70px;
+    }
+    
+    .footer .container-1{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer .container-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer .container-1 ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+ }
+ 
+
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .text-regular{
+        font-size: 15px;
+    }
+
+    .header-text{ 
+        font-size: 40px;
+        line-height: 50.6px;
+    }
+
+    .description-text{ 
+        font-size: 16px;
+    }
+
+    .small-text-bold{
+        font-size: 15px;
+    }
+
+    .header-text-small{
+        font-size: 22px;
+    }
+
+    .extra-small-text{
+        font-size: 15px;
+    }
+
+    nav{
+        height: auto;
+    }
+
+    nav .container{
+        flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+
+    header .img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .headerLeft{
+        width: 85%;
+        height: auto;
+    }
+
+    .mySkills{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        gap: 20px;
+    }
+    
+    .mySkills .row{
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .row > .content {
+        display: flex; 
+        flex-basis: calc(50% - 30px);  
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*about*/
+
+    .about{
+        flex-direction: column;
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .about .img{
+        width: 60%;
+        height: auto;
+    }
+    
+    .about .image{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .rightAbout{
+        width: 90%;
+        height: auto;
+        gap: 32px;
+    }
+
+    /*testimonials*/
+
+    .testimonials{
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .testimonials .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials .stars{
+        width: 40%;
+    }
+
+    .testimonials .section-box{
+        width: 60%;
+    }
+
+    /*blog*/
+
+    .blog{
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .blog .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .blog .section-box{
+        width: 75%;
+    }
+
+    .contact-center{
+        width: 80%;
+    }
+
+    .contact{
+        padding: 100px 40px;
+    }
+
+    .footer{
+        gap: 70px;
+    }
+
+    
+    .footer .container-1{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer .container-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+ }
+ 
+
+ @media only screen and (min-width: 992px) and (max-width: 1250px) {
+    .text-regular{
+        font-size: 19px;
+    }
+
+    .header-text{ 
+        font-size: 58px;
+    }
+
+    .description-text{ 
+        font-size: 20px;
+    }
+
+    .small-text-bold{
+        font-size: 19px;
+    }
+
+    .header-text-small{
+        font-size: 25px;
+    }
+
+    .extra-small-text{
+        font-size: 16px;
+    }
+
+    nav .column{
+        gap: 20px;
+    }
+
+    nav .button{
+        padding: 10.67px 20.33px;
+    }
+    
+    .headerLeft{
+        width: 65%;
+        height: auto;
+    }
+    header .img{
+        width: 60%;
+    }
+
+    header .image{
+        width: 100%;
+        height: auto;
+    }
+
+    .mySkills .row{
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .row > .content {
+        display: flex; 
+        flex-basis: calc(50% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .testimonials .stars{
+        width: 40%;
+    }
+
+    .testimonials{
+        padding: 149.33px 50.33px;
+        gap: 25.67px;
+    }
+
+    .testimonials .section-box{
+        padding: 30px;
+    }
+
+    .contact-center{
+        width: 70%;
+    }
+
+    .footer{
+        padding: 50.667px 35.3333px;
+    }
+
+    .footer .text-regular{
+        font-size: 17px;
+    }
+
+    .footer .container-1{
+        gap: 3.67px;
+    }
+
+    .footer .socials{
+        gap: 5px;
+    }
+
+    .logo{
+        width: 140.67px;
+        height: auto;
+    }
+ }
+
+
+ 
+ @media only screen and (min-width: 1250px)  and (max-width: 1500px) {
+    .header-text{ 
+        font-size: 65px;
+    }
+
+    .headerLeft{
+        width: 75%;
+        height: auto;
+    }
+    header .image{
+        width: 90%;
+        height: auto;
+    }
+
+    .testimonials .stars{
+        width: 40%;
+    }
+
+    .text-regular{
+        font-size: 20px;
+    }
+
+    .footer .container-1{
+        gap: 20.67px;
+    }
+
+    .footer .socials{
+        gap: 10px;
+    }
+ }
