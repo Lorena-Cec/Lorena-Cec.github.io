@@ -277,7 +277,7 @@ h1{
 /*///////////////////////// animacija line chart ///////////////////////////*/
 
 .line {
-  stroke-dasharray: 1700;
+  stroke-dasharray: 1800;
   stroke-dashoffset: 2000;
   animation: dash 2.5s linear forwards;
 }

@@ -107,9 +107,6 @@
             .delay(function(d, i) { return i * 100; })
             .attr("y", function(d) { return y(d.booksRead); })
             .attr("height", function(d) { return height - y(d.booksRead); });
-            
-
-        var totalBooks = d3.sum(booksReadPerMonth, function(d) { return d.booksRead; });
 
         svg.append("text")
             .attr("class", "total-books")
@@ -993,7 +990,7 @@
                 else if(totalPageCount > 20000 && totalPageCount <= 35000){
                     i = i + 253;
                 }
-                else if(totalPageCount > 35000){
+                else if(totalPageCount > 40000){
                     i = i + 553;
                 }
                 else if(totalPageCount < 2500){
